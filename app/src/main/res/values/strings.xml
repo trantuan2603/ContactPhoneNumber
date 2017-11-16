@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ContactPhoneNumber</string>
+    <string name="input_name">Input Name</string>
+    <string name="input_phone_number">Input Phone Number</string>
+    <string name="gener">Gener</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="add">ADD</string>
+    <string name="call">Call</string>
+    <string name="dialog_call_and_send">Dialog call and send</string>
+    <string name="send">Send</string>
+</resources>

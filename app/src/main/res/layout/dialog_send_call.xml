@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/size16"
+    android:layout_margin="@dimen/size16"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_call_and_send"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/textSize20"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:padding="@dimen/size16"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/call"
+            android:id="@+id/btn_call"
+            tools:ignore="ButtonStyle" />
+
+         <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/send"
+            android:id="@+id/btn_send"
+             tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>
